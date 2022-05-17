@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import styles from "./MainContent.module.css";
+import PropTypes from "prop-types";
 
 const Product = (props) => {
 

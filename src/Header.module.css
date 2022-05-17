@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_text {
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: .4s;
+}
+.header_text:hover {
+  color: gray;
+}
+.header_bag {
+  font-size: 25px;
+  cursor: pointer;
+}
+.header_bag:hover {
+  color: gray;
+}

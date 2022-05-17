@@ -33,4 +33,11 @@ const Product = (props) => {
   );
 };
 
+Product.propTypes = {
+  img: PropTypes.string,
+  newPrice: PropTypes.string,
+  oldPrice: PropTypes.string,
+  title: PropTypes.string
+}
+
 export default Product;

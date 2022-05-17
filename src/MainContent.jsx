@@ -37,48 +37,36 @@ const MainContent = () => {
       title="Mac Book Pro"
       newPrice="299 000₽"
       oldPrice="311 000₽"
-      buy="Купить"
-      buyed="В корзине"
       />
       <Product
       img="https://www.notebookcheck-ru.com/fileadmin/Notebooks/Samsung/Galaxy_M31s/4_zu_3_Samsung_Galaxy_M31s.jpg"
       title="Samsung Galaxy A51"
       newPrice="97 990₽"
       oldPrice="105 999₽"
-      buy="Купить"
-      buyed="В корзине"
       />
       <Product
       img="https://regulmoto.ru/upload/iblock/5f3/5f3b362ce151902fbc78f53a35173003.jpg"
       title="Ducati Neron X51"
       newPrice="599 999₽"
       oldPrice="675 900₽"
-      buy="Купить"
-      buyed="В корзине"
       />
       <Product
       img="https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/ip-3_large.jpg"
       title="Iphone 11 Black"
       newPrice="76 990₽"
       oldPrice="90 677₽"
-      buy="Купить"
-      buyed="В корзине"
       />
       <Product
       img="https://cdn.vatanbilgisayar.com/Upload/PRODUCT/samsung/thumb/130776-1_large.jpg"
       title="Samsung Galaxy Z-Flip"
       newPrice="275 900₽"
       oldPrice="299 900₽"
-      buy="Купить"
-      buyed="В корзине"
       />
       <Product
       img="https://cdn.cimri.io/image/1000x1000/appleipadprogb_491928407.jpg"
       title="IPad Pro"
       newPrice="80 000₽"
       oldPrice="99 990₽"
-      buy="Купить"
-      buyed="В корзине"
       />
       </div>
     </div>

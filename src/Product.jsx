@@ -1,34 +1,33 @@
 import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from "./MainContent.module.css";
 
 const Product = (props) => {
 
+  const [value, setValue] = useState(false);
 
-  const [buy, setBuy] = useState(false);
-
-  const setClick = () => {
-    setBuy(!buy)
+  const clickValue = () => {
+    setValue(!value);
   }
 
   return (
-    <div className={buy ? styles.opacityMode : styles.productCard}>
+    <div className={styles.productCard}>
       <div className={styles.imgWrap}>
   <Card.Img variant="top" src={props.img} className={styles.productImg} alt="Картинка"/>
   </div>
   <Card.Body>
     <Card.Text>
       <div className={styles.text_content}>
+      <p className={styles.new_price}>{props.newPrice}</p>
+      <p className={styles.old_price}>{props.oldPrice}</p>
       </div>
     <Card.Title>
-      <div className={styles.title_text}>{props.title}</div>
-      <span className={styles.new_price}>{props.newPrice}</span>
-      <span className={styles.old_price}>{props.oldPrice}</span>
+      <h1 className={styles.title_text}>{props.title}</h1>
     </Card.Title>
     </Card.Text>
-    <Button disabled={buy} variant="primary" onClick={setClick} className={styles.buy_button}>{buy ? props.buyed : props.buy}</Button>
+    <Button disabled={value} className={styles.buy_button} onClick={clickValue}>{!value ? "Купить" : "В корзине"}</Button>
+    
   </Card.Body>
 </div>
   );
